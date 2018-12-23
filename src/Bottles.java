@@ -1,14 +1,6 @@
 class Bottles {
     public String verses(int number1, int number2) {
-        return "99 bottles of beer on the wall, " +
-                "99 bottles of beer.\n" +
-                "Take one down and pass it around, " +
-                "98 bottles of beer on the wall.\n" +
-                "\n" +
-                "98 bottles of beer on the wall, " +
-                "98 bottles of beer.\n" +
-                "Take one down and pass it around, " +
-                "97 bottles of beer on the wall.\n";
+        return verse(99) + "\n" + verse(98);
     }
 
     public String verse(int number) {
