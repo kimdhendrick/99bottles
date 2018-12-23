@@ -22,3 +22,6 @@ Skipped listing because no code change
 
 ### Listing 2.22: Shameless Green Initial
 Skipped listing because no code change
+
+### Listing 2.23: No Song Test
+Skipped listing because no code change
