@@ -1,5 +1,5 @@
 class Bottles {
-    public String verse() {
+    public String verse(int number) {
         return null;
     }
 }
