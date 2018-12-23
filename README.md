@@ -15,3 +15,7 @@
 
 `> gradle test`
 
+## Questionable Listings
+
+### Listing 2.16: Verse Case Statement Else Branch
+Skipped this listing because it had no code change
