@@ -22,4 +22,14 @@ public class BottlesTest {
 
         assertEquals(expected, new Bottles().verse(3));
     }
+
+    @Test
+    public void testVerse2() {
+        String expected = "2 bottles of beer on the wall, " +
+                "2 bottles of beer.\n" +
+                "Take one down and pass it around, " +
+                "1 bottle of beer on the wall.\n";
+
+        assertEquals(expected, new Bottles().verse(2));
+    }
 }
