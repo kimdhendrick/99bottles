@@ -32,4 +32,14 @@ public class BottlesTest {
 
         assertEquals(expected, new Bottles().verse(2));
     }
+
+    @Test
+    public void testVerse1() {
+        String expected = "1 bottle of beer on the wall, " +
+                "1 bottle of beer.\n" +
+                "Take it down and pass it around, " +
+                "no more bottles of beer on the wall.\n";
+
+        assertEquals(expected, new Bottles().verse(1));
+    }
 }
