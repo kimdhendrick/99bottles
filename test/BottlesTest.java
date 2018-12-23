@@ -87,4 +87,10 @@ public class BottlesTest {
 
         assertEquals(expected, new Bottles().verses(2, 0));
     }
+
+    @Test
+    public void testTheWholeSong() {
+        Bottles bottles = new Bottles();
+        assertEquals(bottles.verses(99, 0), bottles.song());
+    }
 }
