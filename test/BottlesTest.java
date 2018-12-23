@@ -1,6 +1,8 @@
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.IntStream.rangeClosed;
 
 public class BottlesTest {
     @Test
@@ -91,6 +93,11 @@ public class BottlesTest {
     @Test
     public void testTheWholeSong() {
         Bottles bottles = new Bottles();
-        assertEquals(bottles.verses(99, 0), bottles.song());
+        String expected = rangeClosed(0, 99)
+                .map(i -> (0 + 99) - i)
+                .mapToObj(i -> bottles.verse(i))
+                .collect(joining("\n"));
+
+        assertEquals(expected, bottles.song());
     }
 }

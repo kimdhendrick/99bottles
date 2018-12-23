@@ -1,24 +1,16 @@
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.IntStream.rangeClosed;
+
 class Bottles {
     public String song() {
         return verses(99, 0);
     }
 
     public String verses(int starting, int ending) {
-        if (starting == 99 && ending == 98) {
-            return "99 bottles of beer on the wall, " +
-                    "99 bottles of beer.\n" +
-                    "Take one down and pass it around, " +
-                    "98 bottles of beer on the wall.\n" +
-                    "\n" +
-                    "98 bottles of beer on the wall, " +
-                    "98 bottles of beer.\n" +
-                    "Take one down and pass it around, " +
-                    "97 bottles of beer on the wall.\n";
-        } else if (starting == 2) {
-            return verse(2) + "\n" + verse(1) + "\n" + verse(0);
-        } else {
-            return "ok";
-        }
+        return rangeClosed(ending, starting)
+                .map(i -> (ending + starting) - i)
+                .mapToObj(i -> verse(i))
+                .collect(joining("\n"));
     }
 
     public String verse(int number) {
