@@ -1,6 +1,10 @@
 class Bottles {
-    public String verses(int number1, int number2) {
-        return verse(99) + "\n" + verse(98);
+    public String verses(int starting, int ending) {
+        if (starting == 99) {
+            return verse(99) + "\n" + verse(98);
+        } else {
+            return verse(2) + "\n" + verse(1) + "\n" + verse(0);
+        }
     }
 
     public String verse(int number) {
