@@ -1,10 +1,12 @@
+import static java.util.stream.Collectors.joining;
+import static java.util.stream.IntStream.rangeClosed;
+
 class Bottles {
     public String verses(int starting, int ending) {
-        if (starting == 99) {
-            return verse(99) + "\n" + verse(98);
-        } else {
-            return verse(2) + "\n" + verse(1) + "\n" + verse(0);
-        }
+        return rangeClosed(ending, starting)
+                .map(i -> (ending + starting) - i)
+                .mapToObj(i -> verse(i))
+                .collect(joining("\n"));
     }
 
     public String verse(int number) {
