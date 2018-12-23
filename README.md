@@ -18,4 +18,7 @@
 ## Questionable Listings
 
 ### Listing 2.16: Verse Case Statement Else Branch
-Skipped this listing because it had no code change
+Skipped listing because no code change
+
+### Listing 2.22: Shameless Green Initial
+Skipped listing because no code change
