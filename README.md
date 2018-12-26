@@ -30,3 +30,6 @@ Skipped listing because no code change
 
 ### Listing 3.1: Shameless Green
 Skipped listing because no code change
+
+### Listing 3.4: Verse Method Conditional
+Skipped listing because no code change
