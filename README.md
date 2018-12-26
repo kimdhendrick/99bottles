@@ -33,3 +33,6 @@ Skipped listing because no code change
 
 ### Listing 3.4: Verse Method Conditional
 Skipped listing because no code change
+
+### Listing 3.5: 2 and Else Case
+Skipped listing because no code change
