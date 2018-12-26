@@ -42,7 +42,7 @@ class Bottles {
         }
     }
 
-    private String container() {
+    private String container(int number) {
         return "bottles";
     }
 }
