@@ -36,3 +36,6 @@ Skipped listing because no code change
 
 ### Listing 3.5: 2 and Else Case
 Skipped listing because no code change
+
+### Listing 3.7: One Difference Remains
+Skipped listing because no code change
