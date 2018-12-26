@@ -39,3 +39,6 @@ Skipped listing because no code change
 
 ### Listing 3.7: One Difference Remains
 Skipped listing because no code change
+
+### Listing 3.10: One Difference Remains Redux
+Skipped listing because no code change
