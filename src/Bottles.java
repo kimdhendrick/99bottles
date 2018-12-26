@@ -43,6 +43,6 @@ class Bottles {
     }
 
     private String container() {
-        return null;
+        return "bottles";
     }
 }
