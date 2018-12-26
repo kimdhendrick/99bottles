@@ -47,6 +47,10 @@ class Bottles {
     }
 
     private String container(int number) {
-        return "bottles";
+        if (number == 1) {
+            return "bottle";
+        } else {
+            return "bottles";
+        }
     }
 }
