@@ -49,6 +49,10 @@ class Bottles {
     }
 
     private String pronoun(int number) {
-        return "one";
+        if (number == 1) {
+            return "it";
+        } else {
+            return "one";
+        }
     }
 }
