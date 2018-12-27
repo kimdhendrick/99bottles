@@ -75,3 +75,6 @@ This does not cause the tests to fail because we had to return a `String` back i
 
 ### Listing 4.35: Quantity Method Reprise
 Same comment as Listing 4.34
+
+### Listing 4.36: Else Branch Converts Result
+Same comment as Listing 4.34
