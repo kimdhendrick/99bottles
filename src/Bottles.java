@@ -45,6 +45,6 @@ class Bottles {
     }
 
     private String pronoun() {
-        return null;
+        return "one";
     }
 }
