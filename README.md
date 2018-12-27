@@ -42,3 +42,6 @@ Skipped listing because no code change
 
 ### Listing 3.10: One Difference Remains Redux
 Skipped listing because no code change
+
+### Listing 4.1: 3 Branch Case Statement
+Skipped listing because no code change
