@@ -25,7 +25,7 @@ class Bottles {
                 return number + " " + container(number) + " of beer on the wall, " +
                         number + " " + container(number) + " of beer.\n" +
                         "Take " + pronoun(number) + " down and pass it around, " +
-                        quantity(number - 1) + " bottles of beer on the wall.\n";
+                        quantity(number - 1) + " " + container(number - 1) + " of beer on the wall.\n";
             }
             default: {
                 return number + " " + container(number) + " of beer on the wall, " +
