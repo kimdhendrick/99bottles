@@ -51,4 +51,8 @@ class Bottles {
             return "one";
         }
     }
+
+    private String quantity() {
+        return null;
+    }
 }
