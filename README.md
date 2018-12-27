@@ -45,3 +45,6 @@ Skipped listing because no code change
 
 ### Listing 4.1: 3 Branch Case Statement
 Skipped listing because no code change
+
+### Listing 4.2: 1 and Else, 1st Phrases Differ
+Skipped listing because no code change
