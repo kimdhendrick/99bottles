@@ -53,7 +53,7 @@ class Bottles {
     }
 
     private String quantity() {
-        return quantity(-1);
+        return quantity(0);
     }
 
     private String quantity(int number) {
