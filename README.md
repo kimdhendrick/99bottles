@@ -84,3 +84,6 @@ Same comment as Listing 4.34
 
 ### Listing 4.38: Quantity Obeys Liskov
 Same comment as Listing 4.34
+
+### Listing 4.39: Verse Trusts Quantity
+Same comment as Listing 4.34
