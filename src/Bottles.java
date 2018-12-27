@@ -52,10 +52,6 @@ class Bottles {
         }
     }
 
-    private String quantity() {
-        return quantity(0);
-    }
-
     private String quantity(int number) {
         if (number == 0) {
             return "no more";
