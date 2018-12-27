@@ -63,3 +63,6 @@ We had to return `number` as a `String` which will cause problems later with the
 
 ### Listing 4.22: Using the Number Default From the 1 Case  
 Skipped listing because no code change
+
+### Listing 4.29: 1 and Else Cases More Alike
+Skipped listing because no code change
