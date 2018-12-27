@@ -81,3 +81,6 @@ Same comment as Listing 4.34
 
 ### Listing 4.37: Both Branches Convert Result
 Same comment as Listing 4.34
+
+### Listing 4.38: Quantity Obeys Liskov
+Same comment as Listing 4.34
