@@ -72,3 +72,6 @@ Skipped listing because no code change
 
 ### Listing 4.34: Quantity Capitalized in Else Case
 This does not cause the tests to fail because we had to return a `String` back in Listing 4.21 because of Java's strong typing. 
+
+### Listing 4.35: Quantity Method Reprise
+Same comment as Listing 4.34
