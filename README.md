@@ -66,3 +66,6 @@ Skipped listing because no code change
 
 ### Listing 4.29: 1 and Else Cases More Alike
 Skipped listing because no code change
+
+### Listing 4.32: 0 and Else Cases Differ
+Skipped listing because no code change
