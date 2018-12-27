@@ -59,4 +59,7 @@ Skipped listing because no code change
 Skipped listing because no code change
 
 ### Listing 4.21: Quantity Message With Conditional
-We had to return `number` as a `String` which will cause problems later with the Liskov Substitution Principle. 
+We had to return `number` as a `String` which will cause problems later with the Liskov Substitution Principle.
+
+### Listing 4.22: Using the Number Default From the 1 Case  
+Skipped listing because no code change
