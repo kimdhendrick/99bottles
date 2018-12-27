@@ -57,3 +57,6 @@ Skipped listing because no code change
 
 ### Listing 4.16: 1 and Else, 4th Phrases Differ
 Skipped listing because no code change
+
+### Listing 4.21: Quantity Message With Conditional
+We had to return `number` as a `String` which will cause problems later with the Liskov Substitution Principle. 
