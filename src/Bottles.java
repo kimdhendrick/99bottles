@@ -19,7 +19,7 @@ class Bottles {
                 return quantity(number).substring(0, 1).toUpperCase() + quantity(number).substring(1) + " " + container(number) + " of beer on the wall, " +
                         quantity(number) + " " + container(number) + " of beer.\n" +
                         action(number) + ", " +
-                        "99 bottles of beer on the wall.\n";
+                        quantity(99) + " bottles of beer on the wall.\n";
             }
             default: {
                 return quantity(number).substring(0, 1).toUpperCase() + quantity(number).substring(1) + " " + container(number) + " of beer on the wall, " +
