@@ -93,3 +93,6 @@ We had to improvise on master because Java's strong typing doesn't allow us to r
 
 ### Listing 4.41: 0 and Else, 2nd Phrases Differ
 Skipped listing because no code change
+
+### Listing 4.43: Phrases 1 and 2 Are Identical
+Skipped listing because no code change
