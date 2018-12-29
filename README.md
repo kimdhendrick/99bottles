@@ -90,3 +90,6 @@ Same comment as Listing 4.34
 
 ### Listing 4.21-4.39:
 We had to improvise on master because Java's strong typing doesn't allow us to return both a number and a string from the same method. This makes LSP hard to demonstrate here. We created an alternate path on branch `listing-4.20-quantity-with-liskov`, but it is unlikely that any Java programmer in his/her right mind would ever follow that path. :D
+
+### Listing 4.41: 0 and Else, 2nd Phrases Differ
+Skipped listing because no code change
