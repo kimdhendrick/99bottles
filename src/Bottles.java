@@ -52,11 +52,11 @@ class Bottles {
         }
     }
 
-    private String quantity() {
+    private Object quantity() {
         return quantity(-1);
     }
 
-    private String quantity(int number) {
+    private Object quantity(int number) {
         return "no more";
     }
 }
