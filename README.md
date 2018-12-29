@@ -102,3 +102,6 @@ Skipped listing because no code change
 
 ### Listing 4.47: Phrases 1, 2, and 3 Are Identical
 Skipped listing because no code change
+
+### Listing 4.50: Song and Verses Reprise
+Skipped listing because no code change
