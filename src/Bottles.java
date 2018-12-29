@@ -16,7 +16,7 @@ class Bottles {
     public String verse(int number) {
         switch (number) {
             case 0: {
-                return ((String) quantity(number)).substring(0, 1).toUpperCase() + ((String) quantity(number)).substring(1) + " bottles of beer on the wall, " +
+                return ((String) String.valueOf(quantity(number))).substring(0, 1).toUpperCase() + ((String) String.valueOf(quantity(number))).substring(1) + " bottles of beer on the wall, " +
                         "no more bottles of beer.\n" +
                         "Go to the store and buy some more, " +
                         "99 bottles of beer on the wall.\n";
