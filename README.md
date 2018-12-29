@@ -99,3 +99,6 @@ Skipped listing because no code change
 
 ### Listing 4.44: 0 and Else, 3rd Phrases Differ
 Skipped listing because no code change
+
+### Listing 4.47: Phrases 1, 2, and 3 Are Identical
+Skipped listing because no code change
