@@ -31,7 +31,7 @@ class Bottles {
                 return number + " " + container(number) + " of beer on the wall, " +
                         number + " " + container(number) + " of beer.\n" +
                         "Take " + pronoun(number) + " down and pass it around, " +
-                        (number - 1) + " " + container(number - 1) + " of beer on the wall.\n";
+                        quantity(number - 1) + " " + container(number - 1) + " of beer on the wall.\n";
             }
         }
     }
@@ -50,10 +50,6 @@ class Bottles {
         } else {
             return "one";
         }
-    }
-
-    private Object quantity() {
-        return quantity(0);
     }
 
     private Object quantity(int number) {
