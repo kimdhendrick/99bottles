@@ -57,6 +57,10 @@ class Bottles {
     }
 
     private Object quantity(int number) {
-        return "no more";
+        if (number == 0) {
+            return "no more";
+        } else {
+            return number;
+        }
     }
 }
