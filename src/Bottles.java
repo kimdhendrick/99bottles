@@ -53,14 +53,10 @@ class Bottles {
     }
 
     private Object quantity() {
-        return quantity(-1);
+        return quantity(0);
     }
 
     private Object quantity(int number) {
-        if (number == 0) {
-            return "no more";
-        } else {
-            return number;
-        }
+        return "no more";
     }
 }
