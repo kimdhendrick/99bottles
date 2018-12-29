@@ -47,10 +47,13 @@ class Bottles {
     }
 
     private String quantity(int number) {
-        if (number == 0) {
-            return "no more";
-        } else {
-            return String.valueOf(number);
+        switch (number) {
+            case -1:
+                return "99";
+            case 0:
+                return "no more";
+            default:
+                return String.valueOf(number);
         }
     }
 
