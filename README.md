@@ -114,3 +114,6 @@ Skipped listing because no code change
 
 ### Listing 4.60: Using the Same Template for Every Verse
 Java didn't allow us to do another explicit return after the case statement so we replaced the entire case statement at this point.
+
+### Listing 4.61: Final Listing
+Skipped listing because no code change
