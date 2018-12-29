@@ -61,4 +61,8 @@ class Bottles {
             return "Take " + pronoun(number) + " down and pass it around";
         }
     }
+
+    private int successor(int number) {
+        return number - 1;
+    }
 }
