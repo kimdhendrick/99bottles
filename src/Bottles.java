@@ -16,13 +16,13 @@ class Bottles {
     public String verse(int number) {
         switch (number) {
             case 0: {
-                return ((String) String.valueOf(quantity(number))).substring(0, 1).toUpperCase() + ((String) String.valueOf(quantity(number))).substring(1) + " bottles of beer on the wall, " +
+                return quantity(number).substring(0, 1).toUpperCase() + quantity(number).substring(1) + " bottles of beer on the wall, " +
                         "no more bottles of beer.\n" +
                         "Go to the store and buy some more, " +
                         "99 bottles of beer on the wall.\n";
             }
             default: {
-                return ((String) String.valueOf(quantity(number))).substring(0, 1).toUpperCase() + ((String) String.valueOf(quantity(number))).substring(1) + " " + container(number) + " of beer on the wall, " +
+                return quantity(number).substring(0, 1).toUpperCase() + quantity(number).substring(1) + " " + container(number) + " of beer on the wall, " +
                         number + " " + container(number) + " of beer.\n" +
                         "Take " + pronoun(number) + " down and pass it around, " +
                         quantity(number - 1) + " " + container(number - 1) + " of beer on the wall.\n";
