@@ -46,7 +46,7 @@ class Bottles {
         }
     }
 
-    private Object quantity(int number) {
+    private String quantity(int number) {
         if (number == 0) {
             return "no more";
         } else {
