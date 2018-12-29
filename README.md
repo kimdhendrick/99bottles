@@ -105,3 +105,6 @@ Skipped listing because no code change
 
 ### Listing 4.50: Song and Verses Reprise
 Skipped listing because no code change
+
+### Listing 4.51: Case 0 Handles Restart
+Skipped listing because no code change
