@@ -108,3 +108,6 @@ Skipped listing because no code change
 
 ### Listing 4.51: Case 0 Handles Restart
 Skipped listing because no code change
+
+### Listing 4.59: Identical 0 and Else Cases
+Skipped listing because no code change
