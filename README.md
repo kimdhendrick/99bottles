@@ -61,7 +61,7 @@ Skipped listing because no code change
 ### Listing 4.21: Quantity Message With Conditional
 We had to return `number` as a `String` which will cause problems later with the Liskov Substitution Principle.
 
-### Listing 4.22: Using the Number Default From the 1 Case  
+### Listing 4.22: Using the Number Default From the 1 Case
 Skipped listing because no code change
 
 ### Listing 4.29: 1 and Else Cases More Alike
@@ -71,7 +71,7 @@ Skipped listing because no code change
 Skipped listing because no code change
 
 ### Listing 4.34: Quantity Capitalized in Else Case
-This does not cause the tests to fail because we had to return a `String` back in Listing 4.21 because of Java's strong typing. 
+This does not cause the tests to fail because we had to return a `String` back in Listing 4.21 because of Java's strong typing.
 
 ### Listing 4.35: Quantity Method Reprise
 Same comment as Listing 4.34
@@ -87,3 +87,6 @@ Same comment as Listing 4.34
 
 ### Listing 4.39: Verse Trusts Quantity
 Same comment as Listing 4.34
+
+### Listing 4.21-4.39:
+We had to improvise on master because Java's strong typing doesn't allow us to return both a number and a string from the same method. This makes LSP hard to demonstrate here. We created an alternate path on branch `listing-4.20-quantity-with-liskov`, but it is unlikely that any Java programmer in his/her right mind would ever follow that path. :D
