@@ -135,3 +135,6 @@ Skipped listing because no code change
 
 ### Listing 5.15: Redundant Arguments
 Skipped listing because no code change
+
+### Listing 5.16: BottleNumber Container Redux
+Skipped listing because no code change
