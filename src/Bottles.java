@@ -60,3 +60,7 @@ class Bottles {
         }
     }
 }
+
+class BottleNumber {
+    
+}
