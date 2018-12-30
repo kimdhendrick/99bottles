@@ -21,11 +21,14 @@ class Bottles {
     }
 
     private String container(int number) {
+        String result;
+        result = new BottleNumber(number).container(number);
         if (number == 1) {
-            return "bottle";
+            result = "bottle";
         } else {
-            return "bottles";
+            result = "bottles";
         }
+        return result;
     }
 
     private String pronoun(int number) {
