@@ -22,22 +22,6 @@ class Bottles {
                 bottleNumber.action() + ", " +
                 nextBottleNumber.quantity() + " " + nextBottleNumber.container() + " of beer on the wall.\n";
     }
-
-    private String container(int number) {
-        return new BottleNumber(number).container();
-    }
-
-    private String quantity(int number) {
-        return new BottleNumber(number).quantity();
-    }
-
-    private String action(int number) {
-        return new BottleNumber(number).action();
-    }
-
-    private int successor(int number) {
-        return new BottleNumber(number).successor();
-    }
 }
 
 class BottleNumber {
