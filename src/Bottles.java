@@ -57,7 +57,7 @@ class BottleNumber {
     }
 
     public String pronoun(int number) {
-        if (number == 1) {
+        if (this.number == 1) {
             return "it";
         } else {
             return "one";
