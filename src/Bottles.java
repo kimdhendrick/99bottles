@@ -21,7 +21,7 @@ class Bottles {
     }
 
     private String container(int number) {
-        return new BottleNumber(number).container(number);
+        return new BottleNumber(number).container();
     }
 
     private String pronoun(int number) {
