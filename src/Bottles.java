@@ -18,7 +18,6 @@ class Bottles {
                 quantity(number) + " " + container(number) + " of beer.\n" +
                 action(number) + ", " +
                 quantity(successor(number)) + " " + container(successor(number)) + " of beer on the wall.\n";
-
     }
 
     private String container(int number) {
