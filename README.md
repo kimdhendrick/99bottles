@@ -129,3 +129,6 @@ Skipped listing because no code change
 
 ### Listing 5.6: Verse Method
 Skipped listing because no code change
+
+### Listing 5.7: Flocked Five Conditional Tests
+Skipped listing because no code change
