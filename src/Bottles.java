@@ -29,15 +29,15 @@ class Bottles {
     }
 
     private String quantity(int number) {
-        return new BottleNumber(number).quantity(number);
+        return new BottleNumber(number).quantity();
     }
 
     private String action(int number) {
-        return new BottleNumber(number).action(number);
+        return new BottleNumber(number).action();
     }
 
     private int successor(int number) {
-        return new BottleNumber(number).successor(number);
+        return new BottleNumber(number).successor();
     }
 }
 
@@ -64,27 +64,27 @@ class BottleNumber {
         }
     }
 
-    public String quantity(int number) {
-        if (number == 0) {
+    public String quantity() {
+        if (this.number == 0) {
             return "no more";
         } else {
-            return String.valueOf(number);
+            return String.valueOf(this.number);
         }
     }
 
-    public String action(int number) {
-        if (number == 0) {
+    public String action() {
+        if (this.number == 0) {
             return "Go to the store and buy some more";
         } else {
-            return "Take " + pronoun(number) + " down and pass it around";
+            return "Take " + pronoun(this.number) + " down and pass it around";
         }
     }
 
-    public int successor(int number) {
-        if (number == 0) {
+    public int successor() {
+        if (this.number == 0) {
             return 99;
         } else {
-            return number - 1;
+            return this.number - 1;
         }
     }
 }
