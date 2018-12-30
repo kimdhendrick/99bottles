@@ -141,3 +141,6 @@ Skipped listing because no code change
 
 ### Listing 5.18: Forward With Redundant Arguments
 Skipped listing because no code change
+
+### Listing 5.21: Forward Messages to Smarter Number
+Skipped listing because no code change
