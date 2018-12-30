@@ -48,6 +48,10 @@ class BottleNumber {
         this.number = number;
     }
 
+    public String container() {
+        return container(-1);
+    }
+
     public String container(int deleteMe) {
         if (this.number == 1) {
             return "bottle";
