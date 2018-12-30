@@ -49,7 +49,7 @@ class BottleNumber {
     }
 
     public String container(int number) {
-        if (number == 1) {
+        if (this.number == 1) {
             return "bottle";
         } else {
             return "bottles";
