@@ -126,3 +126,6 @@ Skipped listing because no code change
 
 ### Listing 5.5: Verses Method
 Skipped listing because no code change
+
+### Listing 5.6: Verse Method
+Skipped listing because no code change
