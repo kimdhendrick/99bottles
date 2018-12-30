@@ -16,8 +16,8 @@ class Bottles {
     public String verse(int number) {
         BottleNumber bottleNumber = new BottleNumber(number);
 
-        return quantity(number).substring(0, 1).toUpperCase() + quantity(number).substring(1) + " " + container(number) + " of beer on the wall, " +
-                quantity(number) + " " + container(number) + " of beer.\n" +
+        return bottleNumber.quantity().substring(0, 1).toUpperCase() + bottleNumber.quantity().substring(1) + " " + bottleNumber.container() + " of beer on the wall, " +
+                bottleNumber.quantity() + " " + bottleNumber.container() + " of beer.\n" +
                 bottleNumber.action() + ", " +
                 quantity(successor(number)) + " " + container(successor(number)) + " of beer on the wall.\n";
     }
