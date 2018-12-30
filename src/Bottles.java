@@ -62,5 +62,43 @@ class Bottles {
 }
 
 class BottleNumber {
-    
+    public String container(int number) {
+        if (number == 1) {
+            return "bottle";
+        } else {
+            return "bottles";
+        }
+    }
+
+    public String pronoun(int number) {
+        if (number == 1) {
+            return "it";
+        } else {
+            return "one";
+        }
+    }
+
+    public String quantity(int number) {
+        if (number == 0) {
+            return "no more";
+        } else {
+            return String.valueOf(number);
+        }
+    }
+
+    public String action(int number) {
+        if (number == 0) {
+            return "Go to the store and buy some more";
+        } else {
+            return "Take " + pronoun(number) + " down and pass it around";
+        }
+    }
+
+    public int successor(int number) {
+        if (number == 0) {
+            return 99;
+        } else {
+            return number - 1;
+        }
+    }
 }
