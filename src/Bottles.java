@@ -15,11 +15,12 @@ class Bottles {
 
     public String verse(int number) {
         BottleNumber bottleNumber = new BottleNumber(number);
+        BottleNumber nextBottleNumber = new BottleNumber(bottleNumber.successor());
 
         return bottleNumber.quantity().substring(0, 1).toUpperCase() + bottleNumber.quantity().substring(1) + " " + bottleNumber.container() + " of beer on the wall, " +
                 bottleNumber.quantity() + " " + bottleNumber.container() + " of beer.\n" +
                 bottleNumber.action() + ", " +
-                quantity(successor(number)) + " " + container(successor(number)) + " of beer on the wall.\n";
+                nextBottleNumber.quantity() + " " + nextBottleNumber.container() + " of beer on the wall.\n";
     }
 
     private String container(int number) {
