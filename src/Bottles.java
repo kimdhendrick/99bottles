@@ -25,7 +25,7 @@ class Bottles {
     }
 
     private String pronoun(int number) {
-        return new BottleNumber(number).pronoun(number);
+        return new BottleNumber(number).pronoun();
     }
 
     private String quantity(int number) {
