@@ -144,3 +144,6 @@ Skipped listing because no code change
 
 ### Listing 5.21: Forward Messages to Smarter Number
 Skipped listing because no code change
+
+### Listing 5.22: Lots of New BottleNumbers
+Skipped listing because no code change
