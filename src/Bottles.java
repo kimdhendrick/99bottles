@@ -56,7 +56,7 @@ class BottleNumber {
         }
     }
 
-    public String pronoun(int number) {
+    public String pronoun(int deleteMe) {
         if (this.number == 1) {
             return "it";
         } else {
