@@ -132,3 +132,6 @@ Skipped listing because no code change
 
 ### Listing 5.7: Flocked Five Conditional Tests
 Skipped listing because no code change
+
+### Listing 5.15: Redundant Arguments
+Skipped listing because no code change
