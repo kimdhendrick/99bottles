@@ -14,6 +14,8 @@ class Bottles {
     }
 
     public String verse(int number) {
+        BottleNumber bottleNumber = new BottleNumber(number);
+
         return quantity(number).substring(0, 1).toUpperCase() + quantity(number).substring(1) + " " + container(number) + " of beer on the wall, " +
                 quantity(number) + " " + container(number) + " of beer.\n" +
                 action(number) + ", " +
