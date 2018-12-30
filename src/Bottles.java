@@ -20,7 +20,6 @@ class Bottles {
                 quantity(successor(number)) + " " + container(successor(number)) + " of beer on the wall.\n";
     }
 
-    // verbose conditional
     private String container(int number) {
         if (number == 1) {
             return "bottle";
@@ -29,18 +28,20 @@ class Bottles {
         }
     }
 
-    // ternary expression
     private String pronoun(int number) {
-        return number == 1 ? "it" : "one";
+        if (number == 1) {
+            return "it";
+        } else {
+            return "one";
+        }
     }
 
-    // guard clause
     private String quantity(int number) {
         if (number == 0) {
             return "no more";
+        } else {
+            return String.valueOf(number);
         }
-
-        return String.valueOf(number);
     }
 
     private String action(int number) {
