@@ -120,3 +120,6 @@ Skipped listing because no code change
 
 ### Listing 5.1: DRY Bottles Class
 Skipped listing because no code change
+
+### Listing 5.4: Song Method
+Skipped listing because no code change
