@@ -48,7 +48,7 @@ class BottleNumber {
         this.number = number;
     }
 
-    public String container(int number) {
+    public String container(int deleteMe) {
         if (this.number == 1) {
             return "bottle";
         } else {
