@@ -22,12 +22,12 @@ class Bottles {
 
     private String container(int number) {
         String result;
-        result = new BottleNumber(number).container(number);
         if (number == 1) {
             result = "bottle";
         } else {
             result = "bottles";
         }
+        result = new BottleNumber(number).container(number);
         return result;
     }
 
