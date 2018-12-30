@@ -123,3 +123,6 @@ Skipped listing because no code change
 
 ### Listing 5.4: Song Method
 Skipped listing because no code change
+
+### Listing 5.5: Verses Method
+Skipped listing because no code change
