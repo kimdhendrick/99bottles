@@ -24,10 +24,6 @@ class Bottles {
         return new BottleNumber(number).container();
     }
 
-    private String pronoun(int number) {
-        return new BottleNumber(number).pronoun();
-    }
-
     private String quantity(int number) {
         return new BottleNumber(number).quantity();
     }
@@ -76,7 +72,7 @@ class BottleNumber {
         if (this.number == 0) {
             return "Go to the store and buy some more";
         } else {
-            return "Take " + pronoun(this.number) + " down and pass it around";
+            return "Take " + pronoun() + " down and pass it around";
         }
     }
 
