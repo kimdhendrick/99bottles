@@ -17,7 +17,7 @@ class Bottles {
         BottleNumber bottleNumber = new BottleNumber(number);
         BottleNumber nextBottleNumber = new BottleNumber(bottleNumber.successor());
 
-        return capitalize(bottleNumber) + " of beer on the wall, " +
+        return capitalize(bottleNumber + " of beer on the wall, ") +
                 bottleNumber + " of beer.\n" +
                 bottleNumber.action() + ", " +
                 nextBottleNumber + " of beer on the wall.\n";
