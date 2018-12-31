@@ -153,3 +153,6 @@ Skipped listing because no code change
 
 ### Listing 6.1: Quantity and Container Form a Data Clump
 Skipped listing because no code change
+
+### Listing 6.5: BottleNumber
+Skipped listing because no code change
