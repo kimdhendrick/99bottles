@@ -177,3 +177,6 @@ Skipped because it matches Listing 6.12
 
 ### Listing 6.21: Factory Chooses Polymorphic Object
 Skipped because it matches Listing 6.19
+
+### Listing 6.29: Shameless Green Conditional
+Skipped because it matches Listing 3.3
