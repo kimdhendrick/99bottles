@@ -180,3 +180,6 @@ Skipped because it matches Listing 6.19
 
 ### Listing 6.29: Shameless Green Conditional
 Skipped because it matches Listing 3.3
+
+### Listing 6.30: Factory Conditional
+Skipped because it matches Listing 6.28
