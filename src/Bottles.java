@@ -112,4 +112,8 @@ class BottleNumber6 extends BottleNumber {
     public String container() {
         return "six-pack";
     }
+
+    public String quantity() {
+        return "1";
+    }
 }
