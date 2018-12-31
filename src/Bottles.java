@@ -72,7 +72,7 @@ class BottleNumber {
     }
 
     public Object successor() {
-        return this.number - 1;
+        return BottleNumber.of(this.number - 1);
     }
 }
 
