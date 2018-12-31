@@ -31,6 +31,10 @@ class BottleNumber {
         this.number = number;
     }
 
+    public String toString() {
+        return quantity() + " " + container();
+    }
+
     public String container() {
         if (this.number == 1) {
             return "bottle";
