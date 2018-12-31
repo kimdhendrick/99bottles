@@ -86,10 +86,6 @@ class BottleNumber0 extends BottleNumber {
     }
 
     public String quantity() {
-        if (this.number == 0) {
-            return "no more";
-        } else {
-            return String.valueOf(this.number);
-        }
+        return "no more";
     }
 }
