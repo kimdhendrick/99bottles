@@ -150,3 +150,6 @@ Skipped listing because no code change
 
 ### Listing 5.26: Current Phrase 4
 Skipped listing because no code change
+
+### Listing 6.1: Quantity and Container Form a Data Clump
+Skipped listing because no code change
