@@ -34,6 +34,8 @@ class BottleNumber {
                 return new BottleNumber0(number);
             case 1:
                 return new BottleNumber1(number);
+            case 6:
+                return new BottleNumber6(number);
             default:
                 return new BottleNumber(number);
         }
