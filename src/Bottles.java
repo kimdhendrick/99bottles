@@ -23,8 +23,8 @@ class Bottles {
                 nextBottleNumber + " of beer on the wall.\n";
     }
 
-    private String capitalize(Object text) {
-        return text.toString().substring(0, 1).toUpperCase() + text.toString().substring(1);
+    private String capitalize(String text) {
+        return text.substring(0, 1).toUpperCase() + text.substring(1);
     }
 }
 
