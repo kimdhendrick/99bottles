@@ -192,3 +192,6 @@ We used the name `of` for the factory method since `for` is a reserved keyword i
 
 ### Listing 6.35: Return Argument If Already a Bottle Number
 Forgive me Father for I have sinned...
+
+### Listing 6.41: Factory With Obsolete Guard Clause
+Skipped listing because no code change
