@@ -64,11 +64,7 @@ class BottleNumber {
     }
 
     public String quantity() {
-        if (this.number == 0) {
-            return "no more";
-        } else {
-            return String.valueOf(this.number);
-        }
+        return String.valueOf(this.number);
     }
 
     public String action() {
