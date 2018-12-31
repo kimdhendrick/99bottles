@@ -174,3 +174,6 @@ If statements are not expressions in Java so we are not able to extract the `new
 
 ### Listing 6.20: BottleNumber0 With Duplicated Quantity Method
 Skipped because it matches Listing 6.12
+
+### Listing 6.21: Factory Chooses Polymorphic Object
+Skipped because it matches Listing 6.19
