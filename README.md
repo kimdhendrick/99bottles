@@ -189,3 +189,6 @@ Skipped listing because no code change
 
 ### Listing 6.33: BottleNumber Class Contains Factory
 We used the name `of` for the factory method since `for` is a reserved keyword in Java. (https://stackoverflow.com/questions/3368830/how-to-name-factory-like-methods)
+
+### Listing 6.35: Return Argument If Already a Bottle Number
+Forgive me Father for I have sinned...

@@ -27,28 +27,21 @@ class Bottles {
     private String capitalize(String text) {
         return text.substring(0, 1).toUpperCase() + text.substring(1);
     }
-
-    private BottleNumber bottleNumberFor(int number) {
-        switch (number) {
-            case 0:
-                return new BottleNumber0(number);
-            case 1:
-                return new BottleNumber1(number);
-            default:
-                return new BottleNumber(number);
-        }
-    }
 }
 
 class BottleNumber {
-    public static BottleNumber of(int number) {
-        switch (number) {
+    public static BottleNumber of(Object number) {
+        if (number instanceof BottleNumber) {
+            return (BottleNumber) number;
+        }
+
+        switch ((int) number) {
             case 0:
-                return new BottleNumber0(number);
+                return new BottleNumber0((int) number);
             case 1:
-                return new BottleNumber1(number);
+                return new BottleNumber1((int) number);
             default:
-                return new BottleNumber(number);
+                return new BottleNumber((int) number);
         }
     }
 
