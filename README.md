@@ -156,3 +156,6 @@ Skipped listing because no code change
 
 ### Listing 6.5: BottleNumber
 Skipped listing because no code change
+
+### Listing 6.6: Original Container Method Takes Number Argument
+Skipped because it matches Listing 4.61
