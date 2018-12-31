@@ -71,7 +71,7 @@ class BottleNumber {
         return "Take " + pronoun() + " down and pass it around";
     }
 
-    public Object successor() {
+    public BottleNumber successor() {
         return BottleNumber.of(this.number - 1);
     }
 }
@@ -89,7 +89,7 @@ class BottleNumber0 extends BottleNumber {
         return "Go to the store and buy some more";
     }
 
-    public Object successor() {
+    public BottleNumber successor() {
         return BottleNumber.of(99);
     }
 }
