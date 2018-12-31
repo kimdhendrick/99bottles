@@ -101,3 +101,9 @@ class BottleNumber1 extends BottleNumber {
         return "it";
     }
 }
+
+class BottleNumber6 extends BottleNumber {
+    public BottleNumber6(int number) {
+        super(number);
+    }
+}
