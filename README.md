@@ -165,3 +165,6 @@ Skipped listing because no code change
 
 ### Listing 6.10: BottleNumber Concepts
 Skipped listing because no code change
+
+### Listing 6.14: Verse Method Knows BottleNumber Class Name
+Skipped listing because no code change
