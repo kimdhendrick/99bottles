@@ -29,7 +29,7 @@ class Bottles {
 }
 
 class BottleNumber {
-    private int number;
+    protected int number;
 
     public BottleNumber(int number) {
         this.number = number;
@@ -83,5 +83,13 @@ class BottleNumber {
 class BottleNumber0 extends BottleNumber {
     public BottleNumber0(int number) {
         super(number);
+    }
+
+    public String quantity() {
+        if (this.number == 0) {
+            return "no more";
+        } else {
+            return String.valueOf(this.number);
+        }
     }
 }
