@@ -195,3 +195,6 @@ Forgive me Father for I have sinned...
 
 ### Listing 6.41: Factory With Obsolete Guard Clause
 Skipped listing because no code change
+
+### Listing 6.50: Metaprogramming an Open Factory
+Just because we can doesn't mean we should!

@@ -1,3 +1,6 @@
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.IntStream.rangeClosed;
 
@@ -29,15 +32,10 @@ class Bottles {
 
 class BottleNumber {
     public static BottleNumber of(int number) {
-        switch (number) {
-            case 0:
-                return new BottleNumber0(number);
-            case 1:
-                return new BottleNumber1(number);
-            case 6:
-                return new BottleNumber6(number);
-            default:
-                return new BottleNumber(number);
+        try {
+            return (BottleNumber) Class.forName("BottleNumber" + number).getConstructor(Integer.TYPE).newInstance(number);
+        } catch (ClassNotFoundException | NoSuchMethodException | InstantiationException | IllegalAccessException | InvocationTargetException e) {
+            return new BottleNumber(number);
         }
     }
 
