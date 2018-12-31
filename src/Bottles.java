@@ -106,4 +106,8 @@ class BottleNumber6 extends BottleNumber {
     public BottleNumber6(int number) {
         super(number);
     }
+
+    public String container() {
+        return "six-pack";
+    }
 }
