@@ -98,4 +98,12 @@ class BottleNumber1 extends BottleNumber {
     public BottleNumber1(int number) {
         super(number);
     }
+
+    public String container() {
+        if (this.number == 1) {
+            return "bottle";
+        } else {
+            return "bottles";
+        }
+    }
 }
