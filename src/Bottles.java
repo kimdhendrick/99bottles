@@ -17,10 +17,14 @@ class Bottles {
         BottleNumber bottleNumber = new BottleNumber(number);
         BottleNumber nextBottleNumber = new BottleNumber(bottleNumber.successor());
 
-        return bottleNumber.toString().substring(0, 1).toUpperCase() + bottleNumber.toString().substring(1) + " of beer on the wall, " +
+        return capitalize(bottleNumber) + " of beer on the wall, " +
                 bottleNumber + " of beer.\n" +
                 bottleNumber.action() + ", " +
                 nextBottleNumber + " of beer on the wall.\n";
+    }
+
+    private String capitalize(Object text) {
+        return text.toString().substring(0, 1).toUpperCase() + text.toString().substring(1);
     }
 }
 
