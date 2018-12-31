@@ -162,3 +162,6 @@ Skipped because it matches Listing 4.61
 
 ### Listing 6.9: BottleNumber Conditional Shape
 Skipped listing because no code change
+
+### Listing 6.10: BottleNumber Concepts
+Skipped listing because no code change
