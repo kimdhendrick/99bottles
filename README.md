@@ -183,3 +183,6 @@ Skipped because it matches Listing 3.3
 
 ### Listing 6.30: Factory Conditional
 Skipped because it matches Listing 6.28
+
+### Listing 6.32: All About Successor
+Skipped listing because no code change
