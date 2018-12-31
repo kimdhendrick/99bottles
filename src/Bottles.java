@@ -55,11 +55,7 @@ class BottleNumber {
     }
 
     public String pronoun() {
-        if (this.number == 1) {
-            return "it";
-        } else {
-            return "one";
-        }
+        return "one";
     }
 
     public String quantity() {
@@ -100,5 +96,9 @@ class BottleNumber1 extends BottleNumber {
 
     public String container() {
         return "bottle";
+    }
+
+    public String pronoun() {
+        return "it";
     }
 }
