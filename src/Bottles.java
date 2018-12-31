@@ -26,6 +26,10 @@ class Bottles {
     private String capitalize(String text) {
         return text.substring(0, 1).toUpperCase() + text.substring(1);
     }
+
+    private BottleNumber bottleNumberFor(int number) {
+        return new BottleNumber(number);
+    }
 }
 
 class BottleNumber {
