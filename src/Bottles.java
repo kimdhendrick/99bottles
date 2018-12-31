@@ -14,8 +14,8 @@ class Bottles {
     }
 
     public String verse(int number) {
-        BottleNumber bottleNumber = bottleNumberFor(number);
-        BottleNumber nextBottleNumber = bottleNumberFor(bottleNumber.successor());
+        BottleNumber bottleNumber = BottleNumber.of(number);
+        BottleNumber nextBottleNumber = BottleNumber.of(bottleNumber.successor());
         // BottleNumber nextBottleNumber = bottleNumber.successor();
 
         return capitalize(bottleNumber + " of beer on the wall, ") +
