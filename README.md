@@ -186,3 +186,6 @@ Skipped because it matches Listing 6.28
 
 ### Listing 6.32: All About Successor
 Skipped listing because no code change
+
+### Listing 6.33: BottleNumber Class Contains Factory
+We used the name `of` for the factory method since `for` is a reserved keyword in Java. (https://stackoverflow.com/questions/3368830/how-to-name-factory-like-methods)
