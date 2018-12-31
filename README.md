@@ -168,3 +168,6 @@ Skipped listing because no code change
 
 ### Listing 6.14: Verse Method Knows BottleNumber Class Name
 Skipped listing because no code change
+
+### Listing 6.18: If Statements Return Objects
+If statements are not expressions in Java so we are not able to extract the `new` out of the if statement.
