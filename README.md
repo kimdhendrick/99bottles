@@ -171,3 +171,6 @@ Skipped listing because no code change
 
 ### Listing 6.18: If Statements Return Objects
 If statements are not expressions in Java so we are not able to extract the `new` out of the if statement.
+
+### Listing 6.20: BottleNumber0 With Duplicated Quantity Method
+Skipped because it matches Listing 6.12
